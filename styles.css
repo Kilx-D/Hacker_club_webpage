@@ -1,0 +1,82 @@
+/*initial settings*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 39);
+    height: 100%;
+}
+
+h3, 
+h4,
+h5, 
+h6, 
+p {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(0, 255, 191);
+}
+
+nav {
+    display: flex;
+    background-color: rgb(29, 1, 75);
+    width: 100%;
+    max-height: 400%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+/*styles the navigation bar items*/
+.nav-item {
+    cursor: pointer;
+    transition: color 300ms ease-out 50ms;
+    
+}
+
+.nav-item:hover {
+    color:rgb(164, 255, 232);
+    text-decoration: underline;
+}
+
+/*styles the head banner of the site*/
+
+div#banner {
+    margin-top: 20px;
+    width: 100%;
+    background-image: url("https://external-preview.redd.it/2Xyi4lnPaNO9Nj8ba2W-NhxMUyXbMKjykdjd05MhkMM.jpg?auto=webp&s=e034935bbba2add159a65888982d6c5b55881919");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#banner-title-div {
+    width: 100%;
+    min-height: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(1.2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-title {
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+#intro {
+    
+    margin: 30px auto;
+    width: 80%;
+    height: 1200px;
+    background-color: cyan;
+    
+    
+}
+
