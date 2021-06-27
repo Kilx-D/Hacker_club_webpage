@@ -19,6 +19,10 @@ p {
     color: rgb(0, 255, 191);
 }
 
+p {
+    font-size: 1.3rem;
+}
+
 nav {
     display: flex;
     background-color: rgb(29, 1, 75);
@@ -70,13 +74,58 @@ div#banner {
     
 }
 
-#intro {
+.intro {
     
     margin: 30px auto;
-    width: 80%;
-    height: 1200px;
-    background-color: cyan;
+    /*width: 85%;*/
+    min-height: 420px;
+    /*background-color: peru;*/
     
+    /*grid-template: 1fr 1fr / 1fr 1fr;*/
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-image {
+    /*grid-area: 1 / 1 / 2 / 2;*/
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: -15px 15px rgb(61, 0, 61);
+}
+
+#intro-title-one {
+    /*grid-area: 1 / 2 / 2 / 3;*/
+}
+
+.intro-title {
+    
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono', monospace;
+    color:rgb(164, 255, 232);
+    font-size: 1.4rem;
+}
+
+.intro-passage {
+
+    width: 700px;
+    text-align: center;
+    /*background-color: rebeccapurple;*/
+    height: 400px;
     
 }
 
+.intro-containers {
+    display: flex;
+    flex-direction: row;
+    /*background-color: red;*/
+    margin:  50px auto;
+}
+
+#intro-image-second {
+    box-shadow: 15px 15px rgb(61, 0, 61);
+}
