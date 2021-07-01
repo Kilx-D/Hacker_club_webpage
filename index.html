@@ -40,10 +40,10 @@
                 <p>Our teams strives to bring justice to the unmoderated depths of the internet to bring justice to those in need. We leave no stone unturned and make sure what we're doing is for the right cause. </p>
             </div>
             </div>
-            <div class="intro-containers">
+            <div  id="intro-containers-two" class="intro-containers">
                 <div class="intro-passage">
                     <h2 class="intro-title">
-                         Stoping those who cause harm to others virtually
+                         Stopping those who cause harm to others virtually
                     </h2>
                     <p>We care about others on the internet. So we take charge and attack against those who threaten and harm others. So that they can take a tast of justice served to them by the internet. Since most poeple think whatever they do on the internet doesn't effect them
                     </p>
@@ -54,6 +54,44 @@
             </div>
         </div>
         
-       
+        <div id="form-call-to-action">
+            <h1 id="call-to-action">Reading to join our cause?</h1>
+            <h3>If so, go ahead and sign up so you can join the team</h3>
+        </div>
+       <div id="forms">
+            <form class="form-form" action="./" method="POST">
+                <!--<div class="form--title">Sign Up</div> -->
+                <div class="form--item">
+                    <label for="givennames" class="form__label">Enter Name</label>
+                    <input type="text" class="form--input " name="givennames" id="givennames" placeholder="Enter your name">
+                    <span class="form__error">A sample error message</span>
+                </div>  <!-- form--input--error-->
+                <div class="form--item">
+                    <label for="numusers" class="form__label">Enter your age</label>
+                    <input type="number" class="form--input form--input__small" name="givennames" id="numusers" min="1" max="200" placeholder="What is your age?">
+                    <span class="form__error">A sample error message</span>
+                </div>
+                <div class="form--item">
+                    <label for="date-of-birth" class="form__label">Enter your birthday</label>
+                    <input type="date" class="form--input form--input__small" name="givennames" id="date-of-birth" placeholder="Enter your date of birth">
+                    <span class="form__error">A sample error message</span>
+                </div>
+                <div class="form--item">
+                    <label for="email" class="form__label">Enter your email</label>
+                    <input type="text" pattern=".+@.+\.com" class="form--input" name="givennames" id="email" placeholder="Enter your email">
+                    <span class="form__error">A sample error message</span>
+                </div>
+                <div class="form--item">
+                    <button class="form__btn" type="submit">Sign Up</button>
+                </div>
+            </form>
+            <script src="page.js" defer></script>
+       </div>
+       <footer>
+        <h4 class="nav-item">Events</h4>
+        <h4 class="nav-item">Results</h4>
+        <h4 class="nav-item">Partnering Restraunts</h4>
+    
+       </footer> 
     </body>
 </html>
